@@ -1,0 +1,160 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    .inj-l-icon{
+        left: 40px;
+        left: 0;
+    }
+    .inj-r-icon{
+        right: 40px;
+        right: 0px;
+    }
+    .inj-b-icon{
+        left: 0px;
+    }
+}
+@media only screen and (min-width:992px) {
+    .active::after{
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #17C2EC;
+  }
+    .fi-head{
+      font-size: 20px !important;
+  }
+  .fo-head{
+    font-size: 24px !important;
+  }
+  .query p{
+    font-size: 24px;
+  }
+
+}
+@media only screen and (max-width:991px) {
+    .rigistration img{
+      position: relative;
+      left: -20px;
+    }
+    .f-head{
+      font-size: 36px;
+    }
+    .fi-head, .fo-head{
+      font-size: 18px !important;
+  }
+    .hiro-sec p:nth-child(odd){
+      font-size: 20px;
+  }
+
+  .icon-row button{
+    padding: 13px 86px;
+  }
+  .person-img{
+    width: 320px !important;
+  }
+  .symptoms-para-box{
+    padding: 10px 10px 10px 35px;
+  }
+  .symptoms-para-box img{
+    width: 55px;
+  }
+  .query{
+    transform: translate(-50%, 140%);
+  }
+  .query p{
+    font-size: 20px;
+  }
+  .footer .logo{
+    font-size: 25px;
+}
+}
+@media only screen and (max-width: 767px){
+  .f-head{
+    font-size: 24px !important;
+  }
+  .fi-head,.fo-head{
+    font-size: 16px !important;
+  }
+  .hiro-sec p{
+    font-size: 16px !important;
+  }
+  
+.rigistration h1{
+    font-size: 24px;
+  }
+  .rigistration img{
+    width: 300px;
+    margin-left: auto;
+  }
+  .hiro-sec h1{
+    font-size: 24px;
+  }
+  .check h3{
+    font-size: 14px !important; 
+  }
+  .inj-l-icon{
+    width: 50px;
+    left: -12px;
+  }
+  .inj-r-icon{
+    right: -12px;
+    width: 50px;
+  }
+  .inj-b-icon{
+    width: 238px;
+    left: -12px;
+    bottom: -30px;
+  }
+  .icon-row{
+    width: 92%;
+    margin: auto;
+  }
+  .icon-row button{
+    padding: 13px 47px;
+  }
+  .rigistration a{
+    font-size: 16px !important;
+  }
+  #rigisSecondInput{
+    width: 100%;
+  } 
+  .person-img{
+    width: 220px !important;
+  }
+  .symptoms-para-box{
+    padding: 10px 10px 10px 35px;
+  }
+  .symptoms-para-box img{
+    width: 30px;
+  }
+  .symptoms-para-box p{
+    /* color: rebeccapurple; */
+    font-size: 10px !important;
+  }
+  .query{
+    width: 80%;
+  }
+  .query{
+    transform: translate(-50%, 160%);
+  }
+  .query p{
+    font-size: 14px;
+  }
+  .footer .logo{
+    font-size: 18px;
+  }
+  #footer-menu{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer-menu a{
+    margin: 16px !important;
+  }
+  .footer{
+    padding-top: 200px !important;
+  }
+  
+}
